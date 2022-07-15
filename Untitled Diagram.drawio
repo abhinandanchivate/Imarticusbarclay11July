@@ -1,1 +1,137 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T05:29:35.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="xTun-wF50KALc9jrbLh6" type="github"><diagram id="OmhLQunLZniRYUm5esBV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-15T04:32:20.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tsUW52scjrSE3snlez5J" version="20.0.4" type="github" pages="3">
+  <diagram id="OmhLQunLZniRYUm5esBV" name="Page-1">
+    <mxGraphModel dx="1422" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5VWBVbai957VO1svanLE-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="620" width="750" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-1" value="Layered Archi." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VWBVbai957VO1svanLE-2" target="5VWBVbai957VO1svanLE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-2" value="Main will collect the data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-3" value="save the info to Database." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="490" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VWBVbai957VO1svanLE-5" target="5VWBVbai957VO1svanLE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VWBVbai957VO1svanLE-5" target="5VWBVbai957VO1svanLE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-5" value="Main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VWBVbai957VO1svanLE-6" target="5VWBVbai957VO1svanLE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VWBVbai957VO1svanLE-6" target="5VWBVbai957VO1svanLE-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VWBVbai957VO1svanLE-6" target="5VWBVbai957VO1svanLE-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-6" value="service layer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5VWBVbai957VO1svanLE-8" target="5VWBVbai957VO1svanLE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VWBVbai957VO1svanLE-8" target="5VWBVbai957VO1svanLE-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VWBVbai957VO1svanLE-8" target="5VWBVbai957VO1svanLE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-8" value="Repo" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-10" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1040" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-13" value="to collect the input and share the result" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VWBVbai957VO1svanLE-15" target="5VWBVbai957VO1svanLE-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-15" value="it is used to handle the Business Logic&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-17" value="Business validations&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-19" value="repository ( will take care to connect / interact with DB) performing all CRUD ops" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="930" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-21" value="5 classes" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-23" value="create only one object against one service class" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="790" y="780" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-24" value="5 repo classes" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-26" value="create only one object against one service class" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="760" y="910" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5VWBVbai957VO1svanLE-27" value="DTO package&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PnH6mlfeFOAyVGu9DmFK" name="Page-2">
+    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9YiJuCLOLYp2kDDTJCsi-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YiJuCLOLYp2kDDTJCsi-1" target="9YiJuCLOLYp2kDDTJCsi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YiJuCLOLYp2kDDTJCsi-1" value="RBI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9YiJuCLOLYp2kDDTJCsi-2" value="set up rules and regulations for all banks in india.&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="350" width="300" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1ZDOpjnUPpoY68QnITNE" name="DP">
+    <mxGraphModel dx="1422" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RyJDPDwee7Nf3uNVJ04w-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RyJDPDwee7Nf3uNVJ04w-1" target="RyJDPDwee7Nf3uNVJ04w-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RyJDPDwee7Nf3uNVJ04w-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RyJDPDwee7Nf3uNVJ04w-1" target="RyJDPDwee7Nf3uNVJ04w-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RyJDPDwee7Nf3uNVJ04w-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RyJDPDwee7Nf3uNVJ04w-1" target="RyJDPDwee7Nf3uNVJ04w-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RyJDPDwee7Nf3uNVJ04w-1" value="DP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RyJDPDwee7Nf3uNVJ04w-2" value="Creational" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RyJDPDwee7Nf3uNVJ04w-4" value="Structural" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RyJDPDwee7Nf3uNVJ04w-6" value="Behavioural" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
