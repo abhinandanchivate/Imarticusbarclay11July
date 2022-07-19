@@ -1,5 +1,7 @@
 package com.barclays.employeeMS;
 
+import java.util.Optional;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -21,8 +23,18 @@ public class EmployeeMsApplication {
 		System.out.println(employeeService.equals(employeeService2));
 		System.out.println("after equals call");
 		
-		String result = employeeService.addEmployee(new Employee(0, "advik", "chivate", 1000, "master"));
+		String result = employeeService.addEmployee(new Employee(2, "advik", "chivate", 1000, "master"));
 		System.out.println(result);
+		
+		Optional<Employee> optional = employeeService.getEmployeeById(1);
+		
+		if(optional.isPresent()) {
+			System.out.println(optional.get());
+		}
+		else
+			System.out.println("there is no record");
+		
+		employeeService.getEmployees().forEach(System.out::println);
 	}
 
 }

@@ -3,13 +3,13 @@ package com.barclays.employeeMS.repo;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
 import com.barclays.employeeMS.dto.Employee;
 
-public interface EmployeeRepository {
+@Repository
+public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 
-	public String addEmployee(Employee employee);
-	public String updateEmployee(Employee employee, int empId);
-	public String deleteEmployee(int empId);
-	public Optional<Employee> getEmployeeById(int empId);
-	public List<Employee> getEmployees();
+	
 }

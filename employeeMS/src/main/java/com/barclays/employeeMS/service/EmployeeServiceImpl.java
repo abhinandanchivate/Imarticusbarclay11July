@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.barclays.employeeMS.dto.Employee;
 import com.barclays.employeeMS.repo.EmployeeRepository;
-import com.barclays.employeeMS.repo.EmployeeRepositoryImpl;
+//import com.barclays.employeeMS.repo.EmployeeRepositoryImpl;
 
 @Service // it should be marked on all service impls and will give singleton object
 public class EmployeeServiceImpl implements EmployeeService {
@@ -47,7 +47,12 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	public String addEmployee(Employee employee) {
 		// TODO Auto-generated method stub
-		return employeeRepository.addEmployee(employee);
+		Employee employee2= employeeRepository.save(employee);
+		
+		if(employee2!= null)
+			return "success";
+		else
+			return "fail";
 	}
 
 	@Override
@@ -59,19 +64,27 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	public String deleteEmployee(int empId) {
 		// TODO Auto-generated method stub
-		return null;
+		Optional<Employee> optional = employeeRepository.findById(empId);
+		if(optional.isPresent())
+		{
+			employeeRepository.deleteById(empId);
+			return "success";
+		}
+		
+		return "no record found";
 	}
 
 	@Override
 	public Optional<Employee> getEmployeeById(int empId) {
 		// TODO Auto-generated method stub
-		return employeeRepository.getEmployeeById(empId);
+		
+		return employeeRepository.findById(empId);
 	}
 
 	@Override
 	public List<Employee> getEmployees() {
 		// TODO Auto-generated method stub
-		return employeeRepository.getEmployees();
+		return employeeRepository.findAll();
 	}
 
 }
